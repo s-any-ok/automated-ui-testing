@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638715638892' stop='1638715746015'>
+    <name>Testing functionality:</name>
+    <title>Testing functionality:</title>
+    <test-cases>
+        <test-case start='1638715665493' status='failed' stop='1638715745501'>
+            <name>Check order by price</name>
+            <title>Check order by price</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638715665496' status='undefined'>
+                    <name>Check order by price</name>
+                    <title>Check order by price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>: Timeout - Async callback was not invoked within the 80000 ms timeout specified by jest.setTimeout.</message>
+                <stack-trace>Timeout - Async callback was not invoked within the 80000 ms timeout specified by jest.setTimeout.Error: 
+                    at new Spec (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-jasmine2\build\jasmine\Spec.js:116:22)
+                    at new Spec (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-jasmine2\build\setup_jest_globals.js:78:9)
+                    at specFactory (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-jasmine2\build\jasmine\Env.js:484:22)
+                    at Env.it (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-jasmine2\build\jasmine\Env.js:553:22)
+                    at Env.it (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:201:23)
+                    at it (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-jasmine2\build\jasmine\jasmineLight.js:100:21)
+                    at Suite.&lt;anonymous> (C:\Users\Admin\Desktop\QA\automated-ui-testing\tests\rozetka.test.js:59:9)
+                    at addSpecsToSuite (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-jasmine2\build\jasmine\Env.js:433:49)
+                    at Env.describe (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-jasmine2\build\jasmine\Env.js:403:9)
+                    at describe (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-jasmine2\build\jasmine\jasmineLight.js:88:18)
+                    at Object.&lt;anonymous> (C:\Users\Admin\Desktop\QA\automated-ui-testing\tests\rozetka.test.js:7:1)
+                    at Runtime._execModule (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-runtime\build\index.js:1646:24)
+                    at Runtime._loadModule (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-runtime\build\index.js:1185:12)
+                    at Runtime.requireModule (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-runtime\build\index.js:1009:12)
+                    at jasmine2 (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-jasmine2\build\index.js:214:13)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at runTestInternal (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-runner\build\runTest.js:389:16)
+                    at runTest (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-runner\build\runTest.js:475:34)
+                    at TestRunner.runTests (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest-runner\build\index.js:111:12)
+                    at TestScheduler.scheduleTests (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\@jest\core\build\TestScheduler.js:333:13)
+                    at runJest (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\@jest\core\build\runJest.js:401:19)
+                    at _run10000 (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\@jest\core\build\cli\index.js:320:7)
+                    at runCLI (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\@jest\core\build\cli\index.js:173:3)
+                    at Object.run (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\jest\node_modules\jest-cli\build\cli\index.js:155:37)</stack-trace>
+            </failure>
+            <description type='text'>Check order by price</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

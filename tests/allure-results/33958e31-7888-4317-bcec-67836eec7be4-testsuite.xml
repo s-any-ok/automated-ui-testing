@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638718196324' stop='1638718198242'>
+    <name>Testing functionality:</name>
+    <title>Testing functionality:</title>
+    <test-cases>
+        <test-case start='1638718197851' status='failed' stop='1638718197853'>
+            <name>Typed phone number in a wrong format</name>
+            <title>Typed phone number in a wrong format</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638718197852' status='undefined'>
+                    <name>Enter wrong phone number and password</name>
+                    <title>Enter wrong phone number and password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Navigation failed because browser has disconnected!</message>
+                <stack-trace>Error: Navigation failed because browser has disconnected!
+                    at C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\LifecycleWatcher.ts:111:13
+                    at C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\vendor\mitt\src\index.ts:88:75
+                    at Array.map (&lt;anonymous>)
+                    at Object.emit (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\vendor\mitt\src\index.ts:88:56)
+                    at CDPSession.emit (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\EventEmitter.ts:102:18)
+                    at CDPSession._onClosed (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\Connection.ts:351:10)
+                    at Connection._onMessage (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\Connection.ts:142:17)
+                    at runNextTicks (internal/process/task_queues.js:58:5)
+                    at listOnTimeout (internal/timers.js:523:9)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+            <description type='text'>Testing login functionality</description>
+        </test-case>
+        <test-case start='1638718197853' status='failed' stop='1638718197854'>
+            <name>Check Catalog by links</name>
+            <title>Check Catalog by links</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638718197854' status='undefined'>
+                    <name>Check Catalog by links</name>
+                    <title>Check Catalog by links</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Navigation failed because browser has disconnected!</message>
+                <stack-trace>Error: Navigation failed because browser has disconnected!
+                    at C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\LifecycleWatcher.ts:111:13
+                    at C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\vendor\mitt\src\index.ts:88:75
+                    at Array.map (&lt;anonymous>)
+                    at Object.emit (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\vendor\mitt\src\index.ts:88:56)
+                    at CDPSession.emit (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\EventEmitter.ts:102:18)
+                    at CDPSession._onClosed (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\Connection.ts:351:10)
+                    at Connection._onMessage (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\Connection.ts:142:17)
+                    at runNextTicks (internal/process/task_queues.js:58:5)
+                    at listOnTimeout (internal/timers.js:523:9)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+            <description type='text'>Check Catalog by links</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

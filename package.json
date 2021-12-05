@@ -1,0 +1,20 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rozetka.test.js",
+  "dependencies": {
+    "jasmine": "^3.10.0",
+    "jest": "^27.3.1",
+    "puppeteer": "^11.0.0"
+  },
+  "scripts": {
+    "test": "cd tests && jest --detectOpenHandles --env=jsdom --modulePaths=."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-allure-reporter": "^1.0.2",
+    "jest-allure": "^0.1.3"
+  }
+}

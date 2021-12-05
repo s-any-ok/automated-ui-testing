@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638715871463' stop='1638715923467'>
+    <name>Testing functionality:</name>
+    <title>Testing functionality:</title>
+    <test-cases>
+        <test-case start='1638715913481' status='failed' stop='1638715923139'>
+            <name>Check order by price</name>
+            <title>Check order by price</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638715913482' status='undefined'>
+                    <name>Check order by price</name>
+                    <title>Check order by price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Evaluation failed: Error: Element is not a &lt;select> element.
+                    at __puppeteer_evaluation_script__:3:23</message>
+                <stack-trace>Error: Evaluation failed: Error: Element is not a &lt;select> element.
+                    at __puppeteer_evaluation_script__:3:23
+                    at ExecutionContext._evaluateInternal (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\ExecutionContext.ts:273:13)
+                    at ExecutionContext.evaluate (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\ExecutionContext.ts:140:12)
+                    at ElementHandle.evaluate (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\JSHandle.ts:161:12)
+                    at DOMWorld.select (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\DOMWorld.ts:482:20)
+                    at Object.orderByPrice (C:\Users\Admin\Desktop\QA\automated-ui-testing\utilities\rozetka.js:48:17)
+                    at Object.&lt;anonymous> (C:\Users\Admin\Desktop\QA\automated-ui-testing\tests\rozetka.test.js:64:43)</stack-trace>
+            </failure>
+            <description type='text'>Check order by price</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

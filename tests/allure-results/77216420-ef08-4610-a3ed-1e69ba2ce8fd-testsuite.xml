@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638715945790' stop='1638716014081'>
+    <name>Testing functionality:</name>
+    <title>Testing functionality:</title>
+    <test-cases>
+        <test-case start='1638715989099' status='failed' stop='1638716013726'>
+            <name>Check order by price</name>
+            <title>Check order by price</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638715989100' status='undefined'>
+                    <name>Check order by price</name>
+                    <title>Check order by price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: webPage.option is not a function</message>
+                <stack-trace>TypeError: webPage.option is not a function
+                    at Object.orderByPrice (C:\Users\Admin\Desktop\QA\automated-ui-testing\utilities\rozetka.js:48:31)
+                    at Object.&lt;anonymous> (C:\Users\Admin\Desktop\QA\automated-ui-testing\tests\rozetka.test.js:64:43)</stack-trace>
+            </failure>
+            <description type='text'>Check order by price</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

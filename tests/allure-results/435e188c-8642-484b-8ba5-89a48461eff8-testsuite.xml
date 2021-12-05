@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638715770148' stop='1638715826484'>
+    <name>Testing functionality:</name>
+    <title>Testing functionality:</title>
+    <test-cases>
+        <test-case start='1638715794759' status='failed' stop='1638715825989'>
+            <name>Check order by price</name>
+            <title>Check order by price</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638715794761' status='undefined'>
+                    <name>Check order by price</name>
+                    <title>Check order by price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Node is either not clickable or not an HTMLElement</message>
+                <stack-trace>Error: Node is either not clickable or not an HTMLElement
+                    at ElementHandle.clickablePoint (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\JSHandle.ts:428:13)
+                    at ElementHandle.click (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\JSHandle.ts:524:22)
+                    at DOMWorld.click (C:\Users\Admin\Desktop\QA\automated-ui-testing\node_modules\puppeteer\src\common\DOMWorld.ts:461:5)
+                    at Object.orderByPrice (C:\Users\Admin\Desktop\QA\automated-ui-testing\utilities\rozetka.js:48:17)
+                    at Object.&lt;anonymous> (C:\Users\Admin\Desktop\QA\automated-ui-testing\tests\rozetka.test.js:64:43)</stack-trace>
+            </failure>
+            <description type='text'>Check order by price</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

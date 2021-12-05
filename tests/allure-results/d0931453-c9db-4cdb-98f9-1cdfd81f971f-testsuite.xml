@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638719359070' stop='1638719411921'>
+    <name>Testing functionality:</name>
+    <title>Testing functionality:</title>
+    <test-cases>
+        <test-case start='1638719390381' status='passed' stop='1638719393714'>
+            <name>Typed phone number in a wrong format</name>
+            <title>Typed phone number in a wrong format</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638719390382' status='passed' stop='1638719393494'>
+                    <name>Enter wrong phone number and password</name>
+                    <title>Enter wrong phone number and password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638719393494' status='passed' stop='1638719393713'>
+                    <name>Check classes of the email input element</name>
+                    <title>Check classes of the email input element</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Testing login functionality</description>
+        </test-case>
+        <test-case start='1638719393714' status='failed' stop='1638719411462'>
+            <name>Check Catalog by links</name>
+            <title>Check Catalog by links</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638719393715' status='undefined'>
+                    <name>Check Catalog by links</name>
+                    <title>Check Catalog by links</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>ProtocolError: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: mandatory field missing at position 49</message>
+                <stack-trace>ProtocolError: Protocol error (Page.navigate): Invalid parameters Failed to deserialize params.url - BINDINGS: mandatory field missing at position 49
+                    at C:\Users\Admin\Desktop\QA\Automated-UI-Testing-JS\node_modules\puppeteer\src\common\Connection.ts:300:16
+                    at new Promise (&lt;anonymous>)
+                    at CDPSession.send (C:\Users\Admin\Desktop\QA\Automated-UI-Testing-JS\node_modules\puppeteer\src\common\Connection.ts:296:12)
+                    at navigate (C:\Users\Admin\Desktop\QA\Automated-UI-Testing-JS\node_modules\puppeteer\src\common\FrameManager.ts:211:39)
+                    at FrameManager.navigateFrame (C:\Users\Admin\Desktop\QA\Automated-UI-Testing-JS\node_modules\puppeteer\src\common\FrameManager.ts:189:7)
+                    at Frame.goto (C:\Users\Admin\Desktop\QA\Automated-UI-Testing-JS\node_modules\puppeteer\src\common\FrameManager.ts:756:37)
+                    at Page.goto (C:\Users\Admin\Desktop\QA\Automated-UI-Testing-JS\node_modules\puppeteer\src\common\Page.ts:1766:49)
+                    at Object.checkCatalog (C:\Users\Admin\Desktop\QA\Automated-UI-Testing-JS\utilities\rozetka.js:47:31)
+                    at Object.&lt;anonymous> (C:\Users\Admin\Desktop\QA\Automated-UI-Testing-JS\tests\rozetka.test.js:48:43)</stack-trace>
+            </failure>
+            <description type='text'>Check Catalog by links</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

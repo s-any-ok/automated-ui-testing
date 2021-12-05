@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638719444389' stop='1638719571387'>
+    <name>Testing functionality:</name>
+    <title>Testing functionality:</title>
+    <test-cases>
+        <test-case start='1638719514520' status='passed' stop='1638719517555'>
+            <name>Typed phone number in a wrong format</name>
+            <title>Typed phone number in a wrong format</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638719514522' status='passed' stop='1638719517326'>
+                    <name>Enter wrong phone number and password</name>
+                    <title>Enter wrong phone number and password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638719517326' status='passed' stop='1638719517554'>
+                    <name>Check classes of the email input element</name>
+                    <title>Check classes of the email input element</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Testing login functionality</description>
+        </test-case>
+        <test-case start='1638719517555' status='passed' stop='1638719570782'>
+            <name>Check Catalog by links</name>
+            <title>Check Catalog by links</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638719517555' status='passed' stop='1638719570780'>
+                    <name>Check Catalog by links</name>
+                    <title>Check Catalog by links</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Check Catalog by links</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

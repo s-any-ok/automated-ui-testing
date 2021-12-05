@@ -1,0 +1,4 @@
+/.metals
+/node_modules
+/jest-allure/
+/utilities/cred.js
